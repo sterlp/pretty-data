@@ -1,3 +1,18 @@
+# Repubished current version:
+
+- https://www.npmjs.com/package/@sterlp/pretty-data
+- https://github.com/sterlp/pretty-data
+
+# Usage with angular
+
+```ts
+import * as pd from '@sterlp/pretty-data';
+
+doFormatXML(val: string) {
+    return pd.pd.xml(val);
+}
+```
+
 # pretty-data - Nodejs plugin
 
 nodejs plugin to **pretty-print** or **minify**
